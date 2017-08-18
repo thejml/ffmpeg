@@ -7,7 +7,7 @@ FROM ubuntu:17.10
 #	libxvidcore-dev libxv-dev libxvmc-dev libzmq-dev libczmq-dev libzvbi-dev libopenal-dev libcdio-dev \
 #	libcdparanoia-dev libcdio-cdda-dev libcdio-dev libcdio-paranoia-dev libcdio-paranoia1 libcdparanoia-dev libcdparanoia0 freeglut3-dev libxmu-dev 
 
-RUN apt-get install -y curl vim g++ git automake frei0r-plugins-dev ladspa-sdk libladspa-ocaml-dev libiec61883-dev libass-dev libbluray-dev libbs2b-dev \
+RUN apy-get update && apt-get install -y curl vim g++ git automake frei0r-plugins-dev ladspa-sdk libladspa-ocaml-dev libiec61883-dev libass-dev libbluray-dev libbs2b-dev \
 	libflite1 libgsm1-dev libmodplug-dev libopus-dev librtmp-dev libshine-dev libsoxr-dev libssh-dev libtwolame-dev libwavpack-dev libwebp-dev libx265-dev \
 	libxvidcore-dev libxv-dev libxvmc-dev libczmq-dev libzvbi-dev libopenal-dev libcdio-dev libcdparanoia-dev libcdio-cdda-dev libcdio-dev libcdio-paranoia-dev \
 	libcdio-paranoia1 libcdparanoia-dev libcdparanoia0 freeglut3-dev libxmu-dev nasm libcaca-dev libdc1394-22-dev libgme-dev libmp3lame-dev \
